@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
-    <link rel="stylesheet" href="style4.css">
+     <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -13,40 +13,42 @@
     <div class="calculator">
         <input type="text" id="input">
         <div>
-            <button class="number">AC</button>
-            <button class="number">DEL</button>
-            <button class="number">%</button>
-            <button class="number last">/</button>
+            <button class="number" id="AC" value="AC">AC</button>
+            <button class="number" id="DEL" value="DEL">DEL</button>
+            <button class="number" id="%" value="%">%</button>
+            <button class="number last" id="/" value="/">/</button>
+        </div>
+    
+        <div>
+            <button class="number" id="7" value="7">7</button>
+            <button class="number" id="8" value="8">8</button>
+            <button class="number" id="9" value="9">9</button>
+            <button class="number last" id="*" value="*">*</button>
         </div>
 
         <div>
-            <button class="number">7</button>
-            <button class="number">8</button>
-            <button class="number">9</button>
-            <button class="number last">*</button>
+            <button class="number" id="4" value="4">4</button>
+            <button class="number" id="5" value="5">5</button>
+            <button class="number" id="6" value="6">6</button>
+            <button class="number last" id="-" value="-">-</button>
         </div>
 
         <div>
-            <button class="number">4</button>
-            <button class="number">5</button>
-            <button class="number">6</button>
-            <button class="number last">-</button>
+            <button class="number" id="3" value="3">3</button>
+            <button class="number" id="2" value="2">2</button>
+            <button class="number" id="1" value="1">1</button>
+            <button class="number last" id="+" value="+">+</button>
         </div>
 
         <div>
-            <button class="number">3</button>
-            <button class="number">2</button>
-            <button class="number">1</button>
-            <button class="number last">+</button>
-        </div>
-
-        <div>
-            <button class="number">0</button>
-            <button class="number">00</button>
-            <button class="number">.</button>
-            <button class="number last">=</button>
+            <button class="number" id="0" value="0">0</button>
+            <button class="number" id="00" value="00">00</button>
+            <button class="number" id="." value=".">.</button>
+            <button class="number last" id="=" value="=">=</button>
         </div>
     </div>
+   <script src="code.js"></script>
+
 
 </body>
 

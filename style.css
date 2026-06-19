@@ -28,6 +28,9 @@ input {
     border: 2px solid rgb(114, 105, 105);
     border-radius: 10px;
     margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
 }
 button{
     height: 60px;
